@@ -1,4 +1,4 @@
-doctorID,doctorFName,doctorLName,doctorType
+DoctorID,DoctorFName,DoctorLName,Referred From
 1001,Hilary,Trump,GP
 1002,Bill,Key,GP
 1003,Donald,Clinton,GP

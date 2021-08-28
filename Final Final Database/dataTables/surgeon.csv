@@ -1,4 +1,4 @@
-surgeonID,surgeonFName,surgeonLName,departmentID
+surgeonID,SurgeonFName,SurgeonLName,departmentID
 1001,Simon,Frampton,101
 1002,Peri,Duffy,102
 1003,Steve,Renison,102
