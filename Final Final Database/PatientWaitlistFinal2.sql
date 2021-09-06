@@ -113,6 +113,8 @@ GO
 
 --DROP TABLE Referral 
 --DROP TABLE Patient
+SET STATISTICS IO ON
+GO
 SELECT r.[referralDate], CONCAT(DATEPART(yy,r.[referralDate]), '-', DATEPART(mm,r.[referralDate])) AS 'Year Month',
 dr.[doctorType] AS 'Referred From', 
 CONCAT(dr.[doctorFName], ' ', dr.[doctorLName]) AS 'Referred By',
